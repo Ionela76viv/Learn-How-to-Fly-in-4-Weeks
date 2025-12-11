@@ -1,201 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Learn How to Fly in 4 Weeks – Digital Book</title>
-  <meta name="description" content="Learn how to fly in just 4 weeks with this complete beginner-friendly digital guide. Discover techniques, safety tips, and expert insights to master the skies." />
-  <style>
-    :root {
-      --sky-blue: #4da8ff;
-      --deep-blue: #0057a3;
-      --light-gray: #f5f7fa;
-      --white: #ffffff;
-      --text-dark: #1a1a1a;
-      --shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }
-
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: var(--light-gray);
-      color: var(--text-dark);
-      line-height: 1.6;
-    }
-
-    header {
-      background: linear-gradient(to bottom right, var(--sky-blue), var(--deep-blue));
-      padding: 60px 20px;
-      text-align: center;
-      color: var(--white);
-    }
-
-    header h1 {
-      font-size: 2.8rem;
-      margin-bottom: 10px;
-    }
-
-    header h2 {
-      font-size: 1.3rem;
-      margin-bottom: 25px;
-    }
-
-    .cta-btn {
-      background: var(--white);
-      color: var(--deep-blue);
-      padding: 14px 26px;
-      border-radius: 8px;
-      font-size: 1.1rem;
-      text-decoration: none;
-      font-weight: bold;
-      box-shadow: var(--shadow);
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-    .cta-btn:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 6px 14px rgba(0,0,0,0.15);
-    }
-
-    .hero-img {
-      max-width: 250px;
-      margin: 30px auto 0;
-      display: block;
-    }
-
-    main section {
-      padding: 60px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-
-    h2.section-title {
-      font-size: 2rem;
-      margin-bottom: 20px;
-      text-align: center;
-    }
-
-    .benefits-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-
-    .benefit-card {
-      background: var(--white);
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: var(--shadow);
-      transition: transform 0.2s ease;
-    }
-    .benefit-card:hover {
-      transform: translateY(-4px);
-    }
-
-    .reviews {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-
-    .review-card {
-      background: var(--white);
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: var(--shadow);
-      transition: transform 0.2s ease;
-    }
-    .review-card:hover {
-      transform: translateY(-4px);
-    }
-
-    .author {
-      background: var(--white);
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: var(--shadow);
-      max-width: 700px;
-      margin: auto;
-    }
-
-    .pricing {
-      text-align: center;
-      background: var(--deep-blue);
-      color: var(--white);
-      padding: 50px 20px;
-      border-radius: 10px;
-      box-shadow: var(--shadow);
-    }
-    .pricing .cta-btn {
-      background: var(--white);
-      color: var(--deep-blue);
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9rem;
-      color: #555;
-    }
-
-    @media (max-width: 600px) {
-      header h1 { font-size: 2rem; }
-      header h2 { font-size: 1rem; }
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn How to Fly in 4 Weeks – Digital Flight Guide</title>
+  <meta name="description" content="Learn How to Fly in 4 Weeks: Step-by-step digital book to master flying quickly and safely.">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <a href="#benefits">Benefits</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#author">Author</a>
+    <a href="#sales" class="cta-button">Buy Now</a>
+  </nav>
 
-<header id="hero">
-  <h1>Learn How to Fly in 4 Weeks</h1>
-  <h2>Master the skies safely, confidently, and faster than you ever thought possible.</h2>
-  <a href="#buy" class="cta-btn">Download the Flying Guide</a>
-   <img src="D:\uni\2nd year\sem 1\SEO&SEM\seo task/plane.png" alt="Smiling cartoon airplane representing the Learn How to Fly in 4 Weeks digital book" class="hero-img" />
-</header>
-
-<main>
-  <section id="benefits">
-    <h2 class="section-title">What You'll Learn</h2>
-    <div class="benefits-grid">
-      <div class="benefit-card">✔ Fundamentals of aircraft control</div>
-      <div class="benefit-card">✔ Safety procedures every beginner must know</div>
-      <div class="benefit-card">✔ Step-by-step flying techniques</div>
-      <div class="benefit-card">✔ Common mistakes and how to avoid them</div>
-      <div class="benefit-card">✔ How to prepare for your first solo flight</div>
-      <div class="benefit-card">✔ Bonus: Free checklists & practice exercises</div>
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Learn How to Fly in 4 Weeks</h1>
+      <h2>Step-by-step digital guide to take off confidently and safely</h2>
+      <a href="#sales" class="cta-button">Download the Flying Guide</a>
     </div>
-  </section>
-
-  <section id="reviews">
-    <h2 class="section-title">What Readers Say</h2>
-    <div class="reviews">
-      <div class="review-card">"Absolutely life-changing! I never thought flying could be this clear and achievable." – Sarah L.</div>
-      <div class="review-card">"The steps were easy to follow and the tips were incredibly practical." – Jason P.</div>
-      <div class="review-card">"A must-read for anyone who dreams of flying. Worth every penny." – Melissa R.</div>
+    <div class="hero-image">
+      <img src="assets/book-cover.png" alt="Cover of Learn How to Fly in 4 Weeks digital book">
     </div>
-  </section>
+  </header>
 
-  <section id="author">
-    <h2 class="section-title">About the Author</h2>
-    <div class="author">
-      <p>John Avery is a certified flight instructor with over 15 years of experience teaching new pilots. He has trained more than 600 students and specializes in making complex flying concepts simple and accessible for beginners.</p>
-    </div>
-  </section>
+  <main>
+    <!-- Benefits Section -->
+    <section id="benefits">
+      <h2>Why This Book Will Change Your Life</h2>
+      <ul class="benefits-list">
+        <li>Learn to fly in just 4 weeks with step-by-step lessons</li>
+        <li>Safe, beginner-friendly instructions</li>
+        <li>Bonus tips from professional pilots</li>
+        <li>Boost confidence and achieve your dream of flying</li>
+      </ul>
+    </section>
 
-  <section id="buy">
-    <h2 class="section-title">Get the Book</h2>
-    <div class="pricing">
-      <p><strong>Only $19.99</strong> – Instant digital download</p>
-      <a href="#" class="cta-btn">Buy Now & Start Flying</a>
-    </div>
-  </section>
-</main>
+    <!-- Reviews Section -->
+    <section id="reviews">
+      <h2>What Our Readers Say</h2>
+      <div class="review-cards">
+        <div class="card">"Amazing guide!" – Jane D.</div>
+        <div class="card">"I actually learned to fly!" – Tom K.</div>
+        <div class="card">"Highly recommended for beginners." – Sarah P.</div>
+      </div>
+    </section>
 
-<footer>
-  © 2025 Learn to Fly Guide – All rights reserved.
-</footer>
+    <!-- About Author Section -->
+    <section id="author">
+      <h2>About the Author</h2>
+      <div class="author-info">
+       <img src="assets/author.webp" alt="Photo of Ionela V., author of Learn How to Fly in 4 Weeks">
+        <p>Ionela V. is a certified flight instructor with over 10 years of experience helping students take off safely and confidently.</p>
+      </div>
+    </section>
 
+    <!-- Sales / Checkout Section -->
+    <section id="sales">
+      <h2>Get Your Copy Now</h2>
+      <p class="price">Price: $29.99</p>
+      <a href="checkout.html" class="cta-button">Buy Now</a>
+      <p class="bonus">Bonus: Free flight checklist PDF with every purchase!</p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Ionela V. All rights reserved.</p>
+  </footer>
 </body>
 </html>
-
-
-
